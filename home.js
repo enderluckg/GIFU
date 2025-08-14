@@ -14,4 +14,5 @@ window.addEventListener('scroll', () => {
     video.style.borderRadius ="0px"
     video.style.marginTop = "0vh"
   }
-});
+}); 
+

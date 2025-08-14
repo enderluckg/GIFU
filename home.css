@@ -99,7 +99,7 @@ body
     
     width: 99vw;
     height: 95vh;
-    filter: saturate(120%);
+    filter: saturate(110%);
     transition: 0.5s;
     position: absolute;
     z-index: 10;
@@ -147,6 +147,16 @@ body
 .org1
 {
     position: relative;
+    margin: 0px 5vw;
+}
+
+.divdesconto
+{
+   
+    padding: 2vh 13vh;
+    background-color: #6DEB3B;
+    border-radius: 40px;
+    text-align: center;
 }
 
 .ProdutoIMG
@@ -173,6 +183,7 @@ body
     z-index: -99;
     display: flex;
     justify-content: center;
+    margin-top: 5vh;
     
     
 }
@@ -242,6 +253,7 @@ body
     padding-top: 4.5vw;
     text-align: center;
     font-size: 18px;
+    color: #000;
 }
 
 .PreçoRotulo
@@ -319,6 +331,59 @@ body
 }
 
 
+
+.carousel-container {
+    position: relative;
+    width: 100vw;
+    overflow: hidden;
+    padding: 30vh 0 30vh;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    min-width: 200px;
+    background-color: #4CAF50;
+    color: white;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    margin: 0 5vw;
+    flex: 0 0 calc(33.333% - 20px);
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.carousel-button.prev {
+    left: 10px;
+}
+
+.carousel-button.next {
+    right: 10px;
+}
+
+.carousel-button:hover {
+    background: rgba(0,0,0,0.8);
+}
 
 
 #divisor
