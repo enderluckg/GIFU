@@ -1,7 +1,7 @@
 let currentIndex = 0;
-const itemsPerPage = 3;
+const itemsPerPage = 3; 
 const carousel = document.querySelector('.carousel');
-const items = document.querySelectorAll('.carousel-item');
+const items = document.querySelectorAll('.org1');
 const totalItems = items.length;
 const itemWidth = items[0].offsetWidth + 20; // largura + margem
 
