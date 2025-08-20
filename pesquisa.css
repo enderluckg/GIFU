@@ -418,3 +418,347 @@ footer
     color: #fff;
 }
 
+@media screen and (max-width: 550px) 
+{
+
+ #txt1 {
+        font-size: 60px;
+        margin-top: 15px;
+    }
+
+      #menu {
+        flex-direction: column;
+        height: auto;
+        padding: 2vw 0;
+    }
+    #menuorg1, #menuorg2 {
+        width: 100%;
+       justify-content: space-between;
+        font-size: 3vw;
+    }
+    #logo1 {
+        max-width: 40vw;
+        margin-right: 2vw;
+    }
+    .menusvg1, .menusvg2 {
+        height: 6vw;
+        margin-left: 2vw;
+    }
+    .headertxt2 {
+        font-size: 4vw;
+    }
+    #divvideo {
+        height: 20vh;
+    }
+    #videoclipes {
+        width: 100vw;
+        height: auto;
+       
+    }
+    #divpromocao {
+        height: 12vh;
+    }
+    #divtxt1 {
+        font-size: 5vw;
+        padding-top: 2vw;
+    }
+    #tempo {
+        font-size: 4vw;
+        padding-top: 1vw;
+    }
+    .carousel-container {
+        width: 100vw;
+        height: auto;
+       padding: 2vw 0;
+ 
+    }
+
+    .org1 {
+    
+        margin: 0 6vw;
+    }
+    .ProdutoIMG{
+        width: 60vw !important;
+        height: 60vw !important;
+        border-radius: 20px !important;
+    }
+
+    .bordaN, .bordaS, .bordaO, .bordaR {
+        width: 60vw !important;
+        height: 10vh !important;
+        border-radius: 20px !important;
+        margin-bottom: -10vw !important;
+        margin-top: 5vh;
+    }
+
+    .ProdutoIcon {
+        width: 10vw;
+        height: 10vw;
+    }
+    .rotulos {
+        width: 60vw ;
+        margin-top: -8vw;
+        height: 35vw ;
+        font-size: 4vw;
+    }
+    .TituloRotulo {
+        font-size: 4vw;
+        padding-top: 6vw;
+    }
+
+     .PreçoRotulo, .NewPreçoRotulo {
+        font-size: 4vw;
+        padding-top: 2vw;
+    }
+    .RotuloRotulo {
+        font-size: 3vw;
+        margin-left: 2vw;
+    }
+    .gamepadrotulo, .assinaturarotulo, .dinheirorotulo   {
+        margin-right: 1vw;
+    }
+
+
+   #orgfiltros {
+        width: 0%;
+        display: none;
+       
+    }
+
+    #pagina {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        padding-bottom: 5vh;
+    }
+
+    .org1 {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #produtos {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+        gap: 5vh;
+        padding-left: 0;
+ }
+
+      #divisor {
+        height: 6vh;
+    }
+    #logo2 {
+        height: 60%;
+    }
+    footer {
+        height: auto;
+        font-size: 3vw;
+        text-align: center;
+        margin-bottom: 2vw;
+    }
+    #footerorg1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto) 1fr;
+        gap: 2vw;
+    }
+    .footertxt1 {
+        font-size: 5vw;
+        margin-bottom: 2vw;
+    }
+    .footertxt2 {
+        font-size: 3.5vw;
+    }
+    .footertxt3 {
+        font-size: 2.5vw;
+        grid-area: 4/1/5/2;
+        margin-top: 2vw;
+    }
+    #footertxt4 {
+        position: static;
+        max-width: 100%;
+        font-size: 3vw;
+        left: unset;
+        top: unset;
+        margin-top: 2vw;
+        text-align: center;
+
+}
+
+    #produtos
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row: 1fr 1fr  1fr;
+        gap: 5vh;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    
+    }
+
+    .linkcomprar:hover .ProdutoIMG
+    {
+        border-radius: 80px;
+        width: 30vw;
+        height: 30vw;
+        object-fit: cover;
+        transition: 1s;
+        position: relative;
+       
+         
+    }
+    
+    .gameplay
+    {
+        width: 0vw;
+        height: 0vw;
+        object-fit: cover;
+        border-radius: 80px;
+       opacity: 0;
+        position: absolute;
+        z-index: 10;
+        
+    }
+    
+    .linkcomprar:hover .gameplay
+    {
+        border-radius: 80px;
+        width: 30vw;
+        height: 30vw;
+        object-fit: cover;
+        transition: 1s;
+        transition-delay:0.5s ;
+        position: absolute;
+        left: 11.2vw;
+        bottom: 13.5vw;
+        opacity: 1;
+    }
+
+    #header1 {
+        height: auto;
+        min-height: 25vh;
+        padding-bottom: 2vh;
+        /* Garante que o header não fique muito grande */
+    }
+
+    #divipt1 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #ipt1 {
+        width: 90%;
+        font-size: 6vw;
+        height: 8vh;
+        margin-top: 3vh;
+        border-radius: 30px;
+    }
+
+    #filtros2 {
+        flex-direction: column;
+        gap: 2vh;
+        margin-top: 2vh;
+        height: auto;
+        width: 100%;
+    }
+
+    .img1 {
+        width: 40%;
+        max-width: 200px;
+    }
+
+    .divimg1 {
+        width: 100%;
+        align-items: center;
+    }
+
+    #produtos {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 4vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        padding: 0 2vw;
+    }
+
+    .org1 {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ProdutoIMG
+     {
+        width: 40vw !important;
+        height: 40vw !important;
+        min-width: 100px;
+        min-height: 100px;
+        border-radius: 18px !important;
+    }
+
+    .bordaN, .bordaS, .bordaO, .bordaR {
+        width: 40vw !important;
+        height: 17vw !important;
+        border-radius: 18px !important;
+        margin-bottom: -10vw !important;
+        margin-top: 5vw;
+    }
+
+    .rotulos {
+        width: 40vw !important;
+        height: 40vw !important;
+        margin-top: -6vw;
+        height: 28vw !important;
+        font-size: 3vw;
+    }
+
+    .TituloRotulo {
+        font-size: 3.5vw;
+        padding-top: 7vw;
+    }
+
+    .PreçoRotulo, .NewPreçoRotulo {
+        font-size: 3vw;
+        padding-top: 1vw;
+    }
+
+    .RotuloRotulo {
+        font-size: 2.5vw;
+        margin-left: 1vw;
+        padding-top: 2vw;
+    }
+
+    .ProdutoIcon {
+        width: 7vw;
+        height: 7vw;
+    }
+
+    .linkcomprar:hover .ProdutoIMG {
+        width: 45vw;
+        height: 45vw;
+        border-radius: 30px;
+    }
+
+    .gameplay {
+        width: 0vw;
+        height: 0vw;
+        opacity: 0;
+        position: absolute;
+        z-index: 10;
+    }
+
+    .linkcomprar:hover .gameplay {
+        width: 45vw;
+        height: 45vw;
+        left: 7vw;
+        bottom: 7vw;
+        opacity: 1;
+        border-radius: 30px;
+    }
+
+    /* Ajuste do footer e divisor já existente */
+}

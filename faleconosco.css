@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Inder&family=Inika:wght@400;700&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Questrial&display=swap');
 
 
@@ -292,5 +291,131 @@ footer
    top: 70%;
    text-decoration: none;
     color: #fff;
+}
+
+@media screen and (max-width: 550px) {
+    #menu {
+        flex-direction: column;
+        height: auto;
+        padding: 2vw 0;
+    }
+    #menuorg1, #menuorg2 {
+        width: 100%;
+        justify-content: space-between;
+        font-size: 3vw;
+    }
+    #logo1 {
+        max-width: 40vw;
+        margin-right: 2vw;
+    }
+    .menusvg1, .menusvg2 {
+        height: 6vw;
+        margin-left: 2vw;
+    }
+
+    #divvideo {
+        height: 40vh;
+        min-height: 200px;
+    }
+    #videoclipes {
+        width: 100vw;
+        height: 30vh;
+        min-height: 120px;
+        left: 50%;
+        top: 25%;
+    }
+
+    #divpromocao {
+        height: 10vh;
+    }
+    #tempo {
+        font-size: 4vw;
+        padding-top: 1vw;
+    }
+    #divtxt1 {
+        font-size: 5vw;
+        padding-top: 2vw;
+    }
+
+    #pag1, #pag2 {
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+    }
+
+    #pag2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 3vw;
+    }
+
+    #pag1org1 {
+        padding: 2vw 0;
+    }
+
+    #h1pag1 {
+        font-size: 7vw;
+        margin-bottom: 2vw;
+    }
+
+    #txtpag1 {
+        font-size: 4vw;
+        max-width: 90vw;
+    }
+
+    #pag1formulario {
+        gap: 2vw;
+        padding: 2vw;
+    }
+
+    #form1 {
+        max-width: 95vw;
+        padding: 4vw;
+        border-radius: 8px;
+    }
+
+    #form1 input, #form1 textarea {
+        font-size: 4vw;
+        padding: 2vw;
+        margin-bottom: 3vw;
+    }
+
+    #divisor {
+        height: 6vw;
+    }
+    #logo2 {
+        height: 40%;
+    }
+    footer {
+        height: auto;
+        font-size: 3vw;
+        text-align: center;
+        margin-bottom: 2vw;
+    }
+    #footerorg1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto) 1fr;
+        gap: 2vw;
+    }
+    .footertxt1 {
+        font-size: 5vw;
+        margin-bottom: 2vw;
+    }
+    .footertxt2 {
+        font-size: 3.5vw;
+    }
+    .footertxt3 {
+        font-size: 2.5vw;
+        grid-area: 4/1/5/2;
+        margin-top: 2vw;
+    }
+    #footertxt4 {
+        position: static;
+        max-width: 100%;
+        font-size: 3vw;
+        left: unset;
+        top: unset;
+        margin-top: 2vw;
+        text-align: center;
+    }
 }
 

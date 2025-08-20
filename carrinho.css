@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Inder&family=Inika:wght@400;700&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Questrial&display=swap');
 
 
@@ -11,7 +10,7 @@
 body
 {
    background-color: #C0EAB2;
-    height: 100vh;
+    
 
 }
 
@@ -107,6 +106,13 @@ body
     grid-template-rows: 1fr;
 }
 
+#txtvazio
+{
+    font-size: 50px;
+    color: #000;
+    margin-top: 2vh;
+    margin-left: 20vw;
+}   
 
 #org2
 {
@@ -181,6 +187,7 @@ body
 {
     display: flex;
     flex-direction: column;
+    margin-bottom: 4vh;
 }
 
 .subtotal
@@ -310,5 +317,132 @@ footer
    top: 70%;
    text-decoration: none;
     color: #fff;
+}
+
+@media (max-width: 550px) {
+    #menu {
+        flex-direction: column;
+        height: auto;
+        padding: 2vw 0;
+    }
+    #menuorg1, #menuorg2 {
+        width: 100%;
+        justify-content: space-between;
+        font-size: 3vw;
+    }
+    #logo1 {
+        max-width: 40vw;
+        margin-right: 2vw;
+    }
+    .menusvg1, .menusvg2 {
+        height: 6vw;
+        margin-left: 2vw;
+    }
+    #org1 {
+        flex-direction: column;
+        font-size: 7vw;
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+        align-items: flex-start;
+    }
+    #svg1 {
+        height: 8vw;
+    }
+    #pag1 {
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+    }
+    #org2 {
+        min-height: auto;
+        width: 100vw;
+        padding: 0 2vw;
+    }
+    .jogo {
+        width: 95vw;
+        height: auto;
+        grid-template-columns: 1fr 2fr;
+        margin-left: 0;
+        border-radius: 20px;
+        font-size: 4vw;
+        padding: 2vw 0;
+    }
+    .img1 {
+        width: 30vw;
+        height: 30vw;
+        border-radius: 20px;
+        margin-left: 2vw;
+    }
+    .Tituloproduto {
+        font-size: 5vw;
+        margin-top: 2vw;
+        margin-left: 2vw;
+        margin-bottom: 2vw;
+    }
+    .precoproduto, .categoriaproduto, .excluirproduto {
+        font-size: 4vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+    #org3 {
+        width: 100vw;
+        align-items: center;
+        margin-top: 4vw;
+    }
+    .subtotal, .numerop, .btncomprar {
+        width: 90vw;
+        height: auto;
+        font-size: 5vw;
+        border-radius: 20px;
+        margin-bottom: 2vw;
+        padding: 3vw 0;
+    }
+    .btncomprar {
+        padding: 3vw 0;
+        border-radius: 40px;
+    }
+    #txtvazio {
+        font-size: 6vw;
+        margin-left: 0;
+        text-align: center;
+    }
+    #divisor {
+        height: 6vh;
+    }
+    #logo2 {
+        height: 60%;
+    }
+    footer {
+        height: auto;
+        font-size: 3vw;
+        text-align: center;
+        margin-bottom: 2vw;
+    }
+    #footerorg1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto) 1fr;
+        gap: 2vw;
+    }
+    .footertxt1 {
+        font-size: 5vw;
+        margin-bottom: 2vw;
+    }
+    .footertxt2 {
+        font-size: 3.5vw;
+    }
+    .footertxt3 {
+        font-size: 2.5vw;
+        grid-area: 4/1/5/2;
+        margin-top: 2vw;
+    }
+    #footertxt4 {
+        position: relative;
+        max-width: 100%;
+        font-size: 3vw;
+        left: unset;
+        top: unset;
+        margin-top: 2vw;
+        text-align: center;
+    }
 }
 
