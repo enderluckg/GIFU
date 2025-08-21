@@ -493,6 +493,8 @@ footer
         width: 100%;
        justify-content: space-between;
         font-size: 3vw;
+         text-decoration: none;
+        color: #fff;
     }
     #logo1 {
         max-width: 40vw;
@@ -501,9 +503,17 @@ footer
     .menusvg1, .menusvg2 {
         height: 6vw;
         margin-left: 2vw;
+    
     }
-    .headertxt2 {
-        font-size: 4vw;
+    .teste2 {
+        font-size: 400vw;
+        text-decoration: none;
+        color: #fff;
+    }
+    #mds1{
+        font-size: 3vw;
+        text-decoration: none;
+        color: #fff;
     }
     #divvideo {
         height: 20vh;
